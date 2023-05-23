@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    border-bottom: 2px solid #ACD9B2
+}
+.nav-principal, .nav-account{
+    display: flex;  
+    height: 69px;  
+}
+.nav-account{
+    cursor: pointer;
+    align-items: center;
+    margin-right: 70px;
+}
+.nav-account:hover{
+    color: #ACD9B2;
+}
+.nav-principal li{
+    display: inline-block;
+    align-items: center;
+    padding: 8px 20px;
+    border: 1px solid #ffffff;
+}
+.nav-principal li:hover{
+    border: 1px solid #ACD9B2;
+    color: #ACD9B2;
+    border-radius: 8px;
+}
+.account{
+    position: absolute;
+    top: 69px;
+    right: 50px;
+    border: 2px solid #ACD9B2;
+    border-radius: 6px
+}
+.account ul{
+    padding:0 38px;
+    margin: 0;
+}
+.account li{
+    list-style: none;
+    padding: 6px 0;
+}
+.account a{
+    text-decoration: none;
+}
+
+
+
+
+

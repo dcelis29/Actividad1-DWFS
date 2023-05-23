@@ -1,0 +1,25 @@
+.my-account {
+	width: 100%;
+	display: grid;
+	place-items: center;
+    margin-bottom: 3em;
+}
+.account-container {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	width: 300px;
+}
+.title {
+	margin-bottom: 36px;
+
+}
+.label {
+	font-weight: bold;
+	margin-bottom: 4px;
+    text-align: start;
+}
+.value {
+	color: #ACD9B2;
+	font-size: var(--md);
+	margin: 8px 0 32px 0;
+}

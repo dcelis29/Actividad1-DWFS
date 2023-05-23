@@ -1,0 +1,25 @@
+.product-detail-img img{
+    border-radius: 8px;
+    margin-top: 24px;
+    width: 320px;
+}
+.product-detail{
+    border: 1px solid #ACD9B2;
+    border-radius: 8px;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.product-detail p{
+    margin: 0;
+    padding-top: 0;
+}
+.product-detail h3{
+    color: #ACD9B2;
+}
+.product-detail .buttonAddShop{
+	border: none;
+    padding: 7px 28px;
+    margin: 12px;
+    border-radius: 12px
+}

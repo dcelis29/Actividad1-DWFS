@@ -1,0 +1,16 @@
+.product-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 240px);
+	gap: 26px;
+	place-content: center;
+	margin: 3em 0;
+}
+
+.search{
+	margin: 14px auto;
+	width: 60%;
+}
+
+.search input{
+	background-color: #e3f2e5;
+}

@@ -1,0 +1,28 @@
+.shopping-list{
+    margin-bottom: 24px;
+}
+.shopping-list table{
+    border: 1px solid black;
+    margin: 24px auto;
+}
+
+.shopping-list table a{
+    text-decoration: none;
+    color: brown;
+    vertical-align: middle;
+}
+
+.shopping-list td, .shopping-list th{
+    border: 1px solid black;
+    width: 200px;
+    height: 36px;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 6px;
+    padding: 14px 36px;
+    margin: 0 12px;
+    background-color: #ACD9B2;
+    cursor: pointer;
+}
